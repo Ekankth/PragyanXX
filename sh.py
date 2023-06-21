@@ -17,16 +17,16 @@ if start in ['Y', 'y', 'Yes', 'YES', 'yes']:
         y.write(evn_vars)
         y.close()
         os.system("clear")
-        SpamX_Setup()
+        PragyanX_Setup()
     else:
         os.system("clear")
-        SpamX_Setup()
+        PragyanX_Setup()
   elif not os.path.exists(".env"):
     y = open(".env", "w")
     y.write(evn_vars)
     y.close()
     os.system("clear")
-    SpamX_Setup()
+    PragyanX_Setup()
 else:
   clear()
-  os.system("python3 -m PragyanSpam")
+  os.system("python3 -m PragyanX")
