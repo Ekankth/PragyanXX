@@ -1,11 +1,11 @@
-""" RiZoeLX 2022 © PragyanX """
+"""  © PragyanX """
 import os
 import sys
 import re
 
 from dotenv import load_dotenv
 from pyrogram import Client
-from PragyanX.functions import check_logchannel
+from pyPragyanX.functions import check_logchannel
 
 if os.path.exists(".env"):
     load_dotenv(".env")
