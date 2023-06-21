@@ -5,7 +5,7 @@ import re
 
 from dotenv import load_dotenv
 from pyrogram import Client
-from pyPragyanX.functions import check_logchannel
+from PragyanX.functions import check_logchannel
 
 if os.path.exists(".env"):
     load_dotenv(".env")
